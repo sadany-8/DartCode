@@ -1,0 +1,22 @@
+void main() {
+   -- IF Conditions
+  int x = 55;
+  print("-----------------------------------------");
+  if (x - 5 == "Sadany") {
+    print("X not equal Sadany");
+  } else if (x <= 10) {
+    print("X not equal 10");
+  } else if (x - 5 == 50) {
+    print("x is Equal 50");
+  } else {
+    print("Sadany");
+  }
+   -- IF Conditions
+  print("-----------------------------------------");
+  var s = (x >= 56) ? 'sadany' : "Ahmed Sadany";
+  print(s);
+  print("-----------------------------------------");
+  var f = "Sadany";
+  var n = (f.length == 5 && f.length > 7) ? "Yes" : "No";
+  print(n);
+}
